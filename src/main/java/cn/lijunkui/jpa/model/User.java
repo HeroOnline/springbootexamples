@@ -1,5 +1,7 @@
 package cn.lijunkui.jpa.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +12,11 @@ import javax.persistence.Transient;
 
 @Entity
 @Table(name="user")//如果@Table(name="user") == @Table name值是数据库的表名 不设置默认和类名相同
-public class User {
+public class User implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6412772340721966016L;
 	@Id
 	/**
 	 *  IDENTITY：ID自增长的方式来自增主键字段，Oracle 不支持。 
