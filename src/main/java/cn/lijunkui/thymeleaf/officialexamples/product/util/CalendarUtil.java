@@ -1,4 +1,4 @@
-package cn.lijunkui.thymeleaf.product.util;
+package cn.lijunkui.thymeleaf.officialexamples.product.util;
 
 import java.util.Calendar;
 

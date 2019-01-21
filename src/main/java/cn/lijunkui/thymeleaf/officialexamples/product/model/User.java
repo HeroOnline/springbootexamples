@@ -1,4 +1,4 @@
-package cn.lijunkui.thymeleaf.product.mode;
+package cn.lijunkui.thymeleaf.officialexamples.product.model;
 
 public class User {
 	private String firstName = null;

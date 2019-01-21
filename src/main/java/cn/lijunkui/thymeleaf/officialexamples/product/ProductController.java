@@ -1,4 +1,4 @@
-package cn.lijunkui.thymeleaf.product;
+package cn.lijunkui.thymeleaf.officialexamples.product;
 
 import java.util.Calendar;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.LocaleResolver;
 
-import cn.lijunkui.thymeleaf.product.mode.Product;
-import cn.lijunkui.thymeleaf.product.mode.User;
-import cn.lijunkui.thymeleaf.product.service.ProductService;
+import cn.lijunkui.thymeleaf.officialexamples.product.model.Product;
+import cn.lijunkui.thymeleaf.officialexamples.product.model.User;
+import cn.lijunkui.thymeleaf.officialexamples.product.service.ProductService;
 
 @Controller
 public class ProductController {

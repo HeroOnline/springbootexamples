@@ -1,4 +1,4 @@
-package cn.lijunkui.thymeleaf;
+package cn.lijunkui.thymeleaf.officialexamples.product;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

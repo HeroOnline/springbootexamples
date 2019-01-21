@@ -1,9 +1,9 @@
-package cn.lijunkui.thymeleaf.product.service;
+package cn.lijunkui.thymeleaf.officialexamples.product.service;
 
 import java.util.List;
 
-import cn.lijunkui.thymeleaf.product.mode.Product;
-import cn.lijunkui.thymeleaf.product.repositories.ProductRepository;
+import cn.lijunkui.thymeleaf.officialexamples.product.model.Product;
+import cn.lijunkui.thymeleaf.officialexamples.product.repositories.ProductRepository;
 
 public class ProductService {
 	public ProductService() {

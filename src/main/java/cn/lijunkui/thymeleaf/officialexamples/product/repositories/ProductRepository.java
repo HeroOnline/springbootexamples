@@ -1,4 +1,4 @@
-package cn.lijunkui.thymeleaf.product.repositories;
+package cn.lijunkui.thymeleaf.officialexamples.product.repositories;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -6,8 +6,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.lijunkui.thymeleaf.product.mode.Comment;
-import cn.lijunkui.thymeleaf.product.mode.Product;
+import cn.lijunkui.thymeleaf.officialexamples.product.model.Comment;
+import cn.lijunkui.thymeleaf.officialexamples.product.model.Product;
 
 public class ProductRepository {
 
