@@ -12,9 +12,9 @@ import cn.lijunkui.restful.model.User;
 @RequestMapping("/mvcUser")
 @ResponseBody
 @Controller
-public class SmvcRestController {
+public class mvc3UserController {
 	
-	Logger log = LoggerFactory.getLogger(SmvcRestController.class);
+	Logger log = LoggerFactory.getLogger(mvc3UserController.class);
     /**
      * 根据用户id 查询用户
      * @return

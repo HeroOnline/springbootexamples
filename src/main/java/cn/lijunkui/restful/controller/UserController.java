@@ -24,8 +24,8 @@ import cn.lijunkui.restful.model.User;
  */
 @RestController()
 @RequestMapping("/bootUser")
-public class SBootRestController {
-	Logger log = LoggerFactory.getLogger(SmvcRestController.class);
+public class UserController {
+	Logger log = LoggerFactory.getLogger(mvc3UserController.class);
     /**
      * 根据用户id 查询用户
      * @return
